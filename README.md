@@ -11,6 +11,7 @@ Package ini provides INI file read and write functionality in Go.
 
 ## Features
 
+- Fix DEFAULT section write.
 - Load from multiple data sources(file, `[]byte`, `io.Reader` and `io.ReadCloser`) with overwrites.
 - Read with recursion values.
 - Read with parent-child sections.
